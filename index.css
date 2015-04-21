@@ -1,0 +1,57 @@
+body {
+	background-color: #272822;
+}
+
+#logo {
+	width: 200px;
+	height: 216px;
+	float: left;
+}
+
+#nav {
+	background: -webkit-linear-gradient(#575757, #272822); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#575757, #272822); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#575757, #272822); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#575757, #272822); /* Standard syntax */
+	float: left;
+	height: 1000%;
+	width: 200px;
+}
+
+
+
+#home {
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-image: url("buttons/home1.png");
+}
+	#home:hover {
+		background-image: url("buttons/home2.png");
+	}
+#about {
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-image: url("buttons/about1.png");
+}
+	#about:hover {
+		background-image: url("buttons/about2.png");
+	}
+#music {
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-image: url("buttons/music1.png");
+}
+	#music:hover {background-image: url("buttons/music2.png");
+	}
+#more {
+	float:left;
+	width: 200px;
+	height: 100px;
+	background-image: url("buttons/more1.png");
+}
+	#more:hover {
+		background-image: url("buttons/more2.png");
+}
